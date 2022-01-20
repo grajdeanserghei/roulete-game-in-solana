@@ -1,0 +1,39 @@
+{
+  "name": "roulete-game-in-solana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grajdeanserghei/roulete-game-in-solana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grajdeanserghei/roulete-game-in-solana/issues"
+  },
+  "homepage": "https://github.com/grajdeanserghei/roulete-game-in-solana#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.31.0",
+    "@types/chalk": "^2.2.0",
+    "@types/clear": "^0.1.2",
+    "@types/figlet": "^1.5.4",
+    "bluebird": "^3.7.2",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "enquirer": "^2.3.6",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.14.9",
+    "typescript": "^4.5.4"
+  }
+}
